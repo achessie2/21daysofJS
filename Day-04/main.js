@@ -40,3 +40,16 @@ const findWinner = (humanChoice) => {
 findWinner('rock')
 findWinner('paper')
 findWinner('scissors')
+
+
+function doSum(num1, num2) {
+    return num1 + num2;
+}
+
+
+//es6 ecmaScript 6
+const doSum = (num1, num2) => {
+    return num1 + num2;
+}
+
+doSum()
