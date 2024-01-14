@@ -16,4 +16,28 @@ function isPalindrome(word){
 }
 
 
-console.log(isPalindrome("RadAR"))
+ console.log(isPalindrome("RadAR"))
+
+
+function sayHello (nationality){
+    switch (nationality) {
+        case "Kenyan":
+            return "Habari yako?";
+            break;
+        case "German":
+            return "Wie gehts es dir?";
+            break;
+        case "Spanish":
+            return "¿Cómo estás?"
+        case "French":
+            return "Comment vas-tu?" 
+            break; 
+        case "Dutch":
+            return "Hoe is het met je?" 
+            break;    
+        default:
+            break;
+    }
+}
+
+console.log(sayHello("Kenyan"))
