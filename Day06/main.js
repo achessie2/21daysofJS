@@ -40,4 +40,30 @@ function sayHello (nationality){
     }
 }
 
-console.log(sayHello("Kenyan"))
+console.log(sayHello("French"))
+
+// function declaration
+function doMultiplication (num1, num2) {
+    let multiplication = num1 * num2
+    return multiplication
+}
+
+console.log(doMultiplication(23,67))
+
+// const dodivision = (num1, num2) => {
+//     let division = num1 / num2
+//     re/turn division
+// }
+// console.log(dodivision(90,3))
+
+const dodivision = (num1, num2) => num1 / num2
+    
+console.log(dodivision(90,3))
+
+// function expression
+let sum = function(num1,num2){
+    return num1 + num2;
+};
+const result = sum(45,69)
+
+console.log(result )
